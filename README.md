@@ -89,11 +89,6 @@ This is my ReportGit
   
  ![sc6](https://user-images.githubusercontent.com/35051952/34571530-593e3156-f1a1-11e7-8065-3d48c8c3a980.PNG)
 =======
-1. Sơ đồ tổng quan về hệ thống Git.
-- Git là tên gọi của một Hệ thống quản lý phiên bản phân tán (Distributed Version Control System – DVCS) là một trong những hệ thống quản lý phiên bản phân tán phổ biến nhất hiện nay.
-- DVCS nghĩa là hệ thống giúp mỗi máy tính có thể lưu trữ nhiều phiên bản khác nhau của một mã nguồn được nhân bản (clone) từ một kho chứa mã nguồn (repository), mỗi thay đổi vào mã nguồn trên máy tính sẽ có thể ủy thác (commit) rồi đưa lên máy chủ nơi đặt kho chứa chính. Và một máy tính khác (nếu họ có quyền truy cập) cũng có thể clone lại mã nguồn từ kho chứa hoặc clone lại một tập hợp các thay đổi mới nhất trên máy tính kia. Trong Git, thư mục làm việc trên máy tính gọi là Working Tree.
-		![1](https://user-images.githubusercontent.com/35052781/34570302-dd935c28-f19d-11e7-81c7-1fd92ae8a1e0.jpg)
-=======
 
 1. Sơ đồ tổng quan về hệ thống Git.
 - Git là tên gọi của một Hệ thống quản lý phiên bản phân tán (Distributed Version Control System – DVCS) là một trong những hệ thống quản lý phiên bản phân tán phổ biến nhất hiện nay.
@@ -109,9 +104,7 @@ This is my ReportGit
   + Dễ dàng trong việc deployment sản phẩm.
 <<<<<<< HEAD
 
-3. Cách sử dụng .gitignore
 
-=======
 3. Cách sử dụng .gitignore
 >>>>>>> 2f06f164d02db6823db70336dfdde8c1825eea7c
 - Gitignore là gì?
@@ -174,13 +167,8 @@ Lệnh này ghi lại trạng thái hiện hành vào một vị trí tạm th�
 
 $ git stash apply  # Bạn có thể sẽ phải giải quyết các xung đột có thể nảy sinh.
 Bạn có thể có nhiều trạng thái được tạm giấu đi, và vận dụng chúng theo nhiều cách khác nhau. Xem git help stash để biết thêm chi tiết. Bạn cũng có thể đoán được, Git duy trì các nhánh ở hậu trường để thực hiện việc này.
-=======
-			![image](https://user-images.githubusercontent.com/35052781/34572694-9d4870b6-f1a4-11e7-82da-6ff4c68e311a.png)
 
-  + Bạn sẽ cần đặt tên cho kho chứa của bạn. Bạn có thể chọn loại kho chứa là Public (ai cũng có thể clone) và Private (chỉ có những người được cấp quyền mới có thể clone).
-         		![image 1](https://user-images.githubusercontent.com/35052781/34572704-a0f5204c-f1a4-11e7-966e-4eb2cda3b727.png)
 
-  + Khi tạo xong nó sẽ dẫn bạn tới trang hướng dẫn làm việc với kho chứa vừa tạo. Và kho chứa của bạn bây giờ sẽ có địa chỉ là https://github.com/$user-name/$repository, ví dụ https://github.com/PhamHanh96/Hanh.git
-  + Việc của bạn bây giờ là hãy clone cái kho chứa này về máy của mình bằng lệnh git clone địa_chỉ
-		vd: git clone https://github.com/PhamHanh96/Hanh.git
->>>>>>> 2f06f164d02db6823db70336dfdde8c1825eea7c
+
+
+
