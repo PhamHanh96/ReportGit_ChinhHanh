@@ -3,7 +3,7 @@ This is my ReportGit
 1. Sơ đồ tổng quan về hệ thống Git.
 - Git là tên gọi của một Hệ thống quản lý phiên bản phân tán (Distributed Version Control System – DVCS) là một trong những hệ thống quản lý phiên bản phân tán phổ biến nhất hiện nay.
 - DVCS nghĩa là hệ thống giúp mỗi máy tính có thể lưu trữ nhiều phiên bản khác nhau của một mã nguồn được nhân bản (clone) từ một kho chứa mã nguồn (repository), mỗi thay đổi vào mã nguồn trên máy tính sẽ có thể ủy thác (commit) rồi đưa lên máy chủ nơi đặt kho chứa chính. Và một máy tính khác (nếu họ có quyền truy cập) cũng có thể clone lại mã nguồn từ kho chứa hoặc clone lại một tập hợp các thay đổi mới nhất trên máy tính kia. Trong Git, thư mục làm việc trên máy tính gọi là Working Tree.
- https://imgur.com/a/Q4sDa
+![1](https://user-images.githubusercontent.com/35052781/34570302-dd935c28-f19d-11e7-81c7-1fd92ae8a1e0.jpg)
 - Tại sao nên sử dụng Git?
   Có rất nhiều lợi thế để bạn nên sử dụng Git trong việc lập trình ngay từ hôm nay, bất kể là lập trình cái gì đi chăng nữa.
   + Git dễ sử dụng, an toàn và nhanh chóng.
