@@ -112,12 +112,4 @@ Lệnh này ghi lại trạng thái hiện hành vào một vị trí tạm th�
 $ git stash apply  # Bạn có thể sẽ phải giải quyết các xung đột có thể nảy sinh.
 Bạn có thể có nhiều trạng thái được tạm giấu đi, và vận dụng chúng theo nhiều cách khác nhau. Xem git help stash để biết thêm chi tiết. Bạn cũng có thể đoán được, Git duy trì các nhánh ở hậu trường để thực hiện việc này.
 =======
-			![image](https://user-images.githubusercontent.com/35052781/34572694-9d4870b6-f1a4-11e7-82da-6ff4c68e311a.png)
 
-  + Bạn sẽ cần đặt tên cho kho chứa của bạn. Bạn có thể chọn loại kho chứa là Public (ai cũng có thể clone) và Private (chỉ có những người được cấp quyền mới có thể clone).
-         		![image 1](https://user-images.githubusercontent.com/35052781/34572704-a0f5204c-f1a4-11e7-966e-4eb2cda3b727.png)
-
-  + Khi tạo xong nó sẽ dẫn bạn tới trang hướng dẫn làm việc với kho chứa vừa tạo. Và kho chứa của bạn bây giờ sẽ có địa chỉ là https://github.com/$user-name/$repository, ví dụ https://github.com/PhamHanh96/Hanh.git
-  + Việc của bạn bây giờ là hãy clone cái kho chứa này về máy của mình bằng lệnh git clone địa_chỉ
-		vd: git clone https://github.com/PhamHanh96/Hanh.git
->>>>>>> 2f06f164d02db6823db70336dfdde8c1825eea7c
