@@ -89,6 +89,7 @@ This is my ReportGit
   
  ![sc6](https://user-images.githubusercontent.com/35051952/34571530-593e3156-f1a1-11e7-8065-3d48c8c3a980.PNG)
 =======
+<<<<<<< HEAD
 
 1. Sơ đồ tổng quan về hệ thống Git.
 - Git là tên gọi của một Hệ thống quản lý phiên bản phân tán (Distributed Version Control System – DVCS) là một trong những hệ thống quản lý phiên bản phân tán phổ biến nhất hiện nay.
@@ -145,6 +146,8 @@ This is my ReportGit
 =======
 		vd: git clone https://github.com/PhamHanh96/Hanh.git
 >>>>>>> Hanh
+=======
+>>>>>>> Chinh
 
 
 7. Cách phân nhánh hiệu quả trong git
