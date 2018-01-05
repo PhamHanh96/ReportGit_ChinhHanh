@@ -9,7 +9,7 @@
 	![2color-lightbg 2x](https://user-images.githubusercontent.com/35052781/34601454-a8078070-f22e-11e7-98a9-346ff0ee4a30.png)
 
 - DVCS nghĩa là hệ thống giúp mỗi máy tính có thể lưu trữ nhiều phiên bản khác nhau của một mã nguồn được nhân bản (clone) từ một kho chứa mã nguồn (repository), mỗi thay đổi vào mã nguồn trên máy tính sẽ có thể ủy thác (commit) rồi đưa lên máy chủ nơi đặt kho chứa chính. Và một máy tính khác (nếu họ có quyền truy cập) cũng có thể clone lại mã nguồn từ kho chứa hoặc clone lại một tập hợp các thay đổi mới nhất trên máy tính kia. Trong Git, thư mục làm việc trên máy tính gọi là Working Tree.
- 	https://i.imgur.com/BljAqAT.jpg
+ 	![1](https://user-images.githubusercontent.com/35052781/34603186-78fc3b70-f235-11e7-8fa1-bfffae6e95e9.jpg)
 
 ### Tại sao nên sử dụng Git?
   Có rất nhiều lợi thế để bạn nên sử dụng Git trong việc lập trình ngay từ hôm nay, bất kể là lập trình cái gì đi chăng nữa.
@@ -80,9 +80,10 @@ Chú ý : Một file đã ở trạng thái Staged mà bạn lại tiếp tục 
 
   
 ## 3. Cách sử dụng .gitignore
-- Gitignore là gì?
-  Gitignore là file có tên là .gitignore do thằng Git quy định, nhiệm vụ của nó là liệt kê những file mà mình không mong muốn cho vào git hoặc hiểm nôm na là thằng Git sẽ lờ những file đó đi.
-- Cách thức hoạt động: Khi add 1 file mới vào git, git sẽ kiểm tra danh sách những thằng sẽ lờ đi trong file .gitignore và lờ luôn chúng nó. Đó mới chỉ là điều kiện cần, điều kiện đủ là nó không có trong git cache nữa thì thằng git nó mới lờ đi chứ nó mà nằm trong git cache thì .gitignore sẽ vô tác dụng.
+  - .gitignore Là một file cấu hình của git. Tại khai báo tất cả các file hoặc thư mục mà ta sẽ untracked. Tức là khai báo những file mà ta không muốn git quản lý, những file này sẽ không bao giờ được commit.
+  - Ứng dụng của file này là để loại bỏ các tệp tin thừa do hệ điều hành, công cụ làm việc sinh ra trong lúc làm việc, những file này không có giá trị nên không bao giờ cần phải quản lý bởi Git cả.
+  - Chú ý : Thường khi làm việc với một công nghệ cụ thể nào đó thì đề có một file .gitignore mẫu sẵn, ta có thể lên mạng tải về để sử dụng, trong quá trình sử dụng bạn có thể thêm vào file .gitignore các file đặc biệt mà bạn muốn bỏ ra khỏi Git tương ứng với công việc của bạn.
+  - Ví dụ: Với ngôn ngữ Java, khi mã nguồn được biên dịch, thì file .class sẽ được sinh ra, nhưng file này lại không cần phải quản lý bởi Git do nó sinh ra từ file .java. Nên ta sẽ loại bỏ nó bằng cách khai báo trong .gitignore là *.class (bỏ hoàn toàn các file có phần mở rộng là .class).
 - Git thấy mọi tệp trong bản sao làm việc của bạn là một trong ba điều sau:
   + Theo dõi - một tập tin đã được dàn dựng hoặc cam kết.
   + Untracked - một tập tin đã không được hiển thị hoặc cam kết. 
