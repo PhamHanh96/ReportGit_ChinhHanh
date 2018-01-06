@@ -1,9 +1,5 @@
 ﻿# ReportGit_ChinhHanh
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-#2. Các lệnh cơ bản của git
-=======
 # 2. Các lệnh cơ bản của git
 >>>>>>> origin/Chinh
  + Để khởi tạo Git trong một repository (repo), bạn chỉ cần gõ câu lệnh sau. Nếu bạn không khởi tạo Git, bạn không thể sử dụng bất kì các câu lệnh Git nào cả.
@@ -364,4 +360,4 @@ dòng n
 | Hàng 3 | 3 x 1 | 3 x 2 | 3 x 3 | 3 x 4 |
 | Hàng 4 | 4 x 1 | 4 x 2 | 4 x 3 | 4 x 4 |
   
->>>>>>> 039972ced33a8681153d80d7545096cca253452b
+
