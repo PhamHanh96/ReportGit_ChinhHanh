@@ -1,7 +1,7 @@
 ﻿# ReportGit_ChinhHanh
 This is my ReportGit
 
-#2. Các lệnh cơ bản của git
+# 2. Các lệnh cơ bản của git
  + Để khởi tạo Git trong một repository (repo), bạn chỉ cần gõ câu lệnh sau. Nếu bạn không khởi tạo Git, bạn không thể sử dụng bất kì các câu lệnh Git nào cả.
     Cú pháp : git init
 
@@ -59,7 +59,7 @@ This is my ReportGit
     - Trong trường hợp bạn làm sai điều gì đó, bạn có thể thay thế các thay đổi cục bộ bằng lệnh 
        Cú pháp: git checkout -- <tên-tập-tin>
       Lệnh này thay thế những thay đổi trong "tree" đang làm việc với nội dung mới nhất của HEAD. Các thay đổi đã được thêm vào chỉ mục, kể cả các tập tin mới, điều này sẽ được giữ lại.
- #4. Cách sử dụng Sourcetree
+ # 4. Cách sử dụng Sourcetree
   + Có nhiều công cụ để làm trung gian vận chuyển source code giữa các thành viên trong Team. Một công cụ có hiệu quả cao trong đó phải nói đến là Source Tree.
   - Đầu tiên, bạn cần tải phần mềm Source Tree về cài đặt và đăng nhập vào để có thể sử dụng. Dưới đây là giao diện chính của Source Tree.
 
@@ -89,7 +89,7 @@ This is my ReportGit
  ![sc6](https://user-images.githubusercontent.com/35051952/34571530-593e3156-f1a1-11e7-8065-3d48c8c3a980.PNG)
 
 
- #7. Cách phân nhánh hiệu quả trong git
+ # 7. Cách phân nhánh hiệu quả trong git
 
 
    Thông thường khi tạo 1 git repo bất kỳ đã có 1 nhánh (branch) mặc định là master, với các bạn thiếu kinh nghiệm thì dù team có bao nhiêu người cũng đều làm việc chung ở 1 branch này và commit conflict loạn cả lên. Hoặc tốt hơn 1 chút là phân ra các nhánh khác nhau cho từng bạn nhưng không có 1 convention hoặc model nào cụ thể cho việc merge các thay đổi giữa các branch lại với nhau. Các tập tin trong thư mục của bạn dễ dàng biến đổi từ phiên bản này sang phiên bản khác. Sự chuyển đổi này có thể làm nhiều hơn việc di chuyển trong trong lịch sử một các đơn thuần. Các tập tin của bạn có thể chuyển hình thái từ bản phát hành cuối thành phiên bản thử nghiệm, thành phiên bản phát triển hiện nay, thành phiên bản của người bạn của bạn, và cứ như thế.Liệt kê tất cả các nhánh bằng cách gõ:
@@ -112,7 +112,7 @@ This is my ReportGit
 
 
 
- #8. Giới thiệu cách sử dụng gitthub
+ # 8. Giới thiệu cách sử dụng gitthub
   Repository (kho chứa) nghĩa là nơi mà bạn sẽ lưu trữ mã nguồn và một người khác có thể sao chép (clone) lại mã nguồn đó nhằm làm việc.
    + Tạo repository trên gitthub
     - Trước tiên bạn cần đăng nhập vào Github, sau đó ấn vào dấu + trên menu và chọn New repository.
