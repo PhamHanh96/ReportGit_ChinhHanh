@@ -115,41 +115,76 @@ Chú ý : Một file đã ở trạng thái Staged mà bạn lại tiếp tục 
   - Nội dung trong file Readme.md thường chứa các nội dung như: hướng dẫn cài đặt, cấu hình, vận hành,cách khắc phục sự cố, thông tin bản quyền giấy phép, thông tin liên hệ...
   - File Readme.me được viết bằng ngôn ngữ Markdown, một ngôn ngữ đánh dấu với cú pháp văn bản thô, được thiết kế để có thể dễ dàng chuyển thành HTML và nhiều định dạng khác sử dụng một công cụ cùng tên.
 #### Một số cơ bản về Markdown
-1. Thẻ tiêu đề
-  - Markdown sử dụng kí tự # để bắt đầu cho các thẻ tiêu đề, có thể dùng từ 1 đến 6 ký tự # liên tiếp. Mức độ tiêu đề giảm dần từ 1 đến 6
-  - Tùy mục đích và ý thích bạn có thể sử dụng cách này để thể hiện các chỉ mục khác nhau.
-  Ví dụ: thẻ h1 : #  <Nội dung thẻ>
-             h2 : ##  <Nội dung thẻ>
-             h3 : ###  <Nội dung thẻ>
+   1. Thẻ tiêu đề (H)
+     - Markdown sử dụng kí tự # để bắt đầu cho các thẻ tiêu đề, có thể dùng từ 1 đến 6 ký tự # liên tiếp. Mức độ riêu đề giảm dần từ 1 đến 6
 
-2. Chèn link, chèn ảnh
-  - Để chèn hyperlink bạn chỉ cần paste luôn linh đó vào file .md
-	https://github.com
-  - Hoặc bạn cũng có thể sử dụng cú pháp sau để thu ngắn đường dẫn của link
-	[Github](https://github.com)
-  - Để chèn ảnh thì bạn hãy sử dụng cú pháp sau:
-	<img src="link_anh_cua_ban">
-   
-3. Ký tự in đậm, in nghiêng
-  - Để in đậm một đoạn text:
-    Cú pháp:   **từ cần in đậm**
-  - Để in nghiên một đoạn text:
-    Cú pháp:   *từ cần in nghiêng*
-    
-4. Trích dẫn, bo chữ
-  - Để bo một đoạn text:
-    Cú pháp:   `đoạn cần bo`
-  - Để làm nổi bật một đoạn, chẳng hạn như một đoạn shell hay file cấu hình bạn có thể sử dụng cú pháp như ví dụ sau:
-    Cú pháp :    ```sh
-    		    dòng 1
-		    .....
-		    dòng n
-		  ```
+     - Tùy mục đích và ý thích bạn có thể sử dụng cách này để thể hiện các chỉ mục khác nhau.
+
+Ví dụ:
+
+```
+#1.Tiêu đề cấp 1
+```
+
+#1.Tiêu đề cấp 1
+
+```
+##2.Tiêu đề cấp 2
+```
+
+##2.Tiêu đề cấp 2
+
+```
+######6.Tiêu đề cấp 6
+```
+
+######6.Tiêu đề cấp 6
+
+   2. Chèn Link, hình ảnh 
+       - Để chèn hyperlink bạn chỉ cần paste luôn linh đó vào file .md (VD : https://github.com),<br>
+         cũng có thể sử dụng cú pháp sau để thu ngắn đường dẫn của link
+           VD : [Github](https://github.com) . khi đó hiện thị : Github , ta click vào "Github" nó sẽ dẫn đến link https://github.com.
+       - Chèn ảnh : ![alt_text](Đường dẫn hình ảnh của bạn).
        
-5. Tạo bảng
+    3. In đậm , in nghiêng, bo chữ
+       - In đậm text :
+          Cú pháp :   ``` **Text cần in đậm** ```
+       - In nghiêng text :
+          Cú pháp :   ``` *Text cần in nghiêng* ```
+       - Bo chữ:
+          Cú pháp :  ``` `Đoạn cần bo` ```
+            ```
+       - Để làm nổi bật một đoạn, chẳng hạn như một đoạn shell hay file cấu hình bạn có thể sử dụng cú pháp như ví dụ sau:
+
+    ```sh
+    dòng 1
+    ....
+    dòng n
+    ```
+
+Kết quả như sau:
+
+```sh
+dòng 1
+....
+dòng n
+```
+	  
+     4. Tạo bảng :
+      ví dụ :
       cú pháp : 
-              | Cột 1 Hàng 1 | Cột 2 | Cột 3| Cột 4 |
-              |--------------|-------|------|-------|
-              | Hàng 2 | 2 x 1 | 2 x 2 | 2 x 3 | 2 x 4 |
-              | Hàng 3 | 3 x 1 | 3 x 2 | 3 x 3 | 3 x 4 |
-              | Hàng 4 | 4 x 1 | 4 x 2 | 4 x 3 | 4 x 4 |
+```
+| Cột 1 Hàng 1 | Cột 2 | Cột 3| Cột 4 |
+|--------------|-------|------|-------|
+| Hàng 2 | 2 x 1 | 2 x 2 | 2 x 3 | 2 x 4 |
+| Hàng 3 | 3 x 1 | 3 x 2 | 3 x 3 | 3 x 4 |
+| Hàng 4 | 4 x 1 | 4 x 2 | 4 x 3 | 4 x 4 |
+```
+     Kết quả:
+
+| Cột 1 Hàng 1 | Cột 2 | Cột 3| Cột 4 |
+|--------------|-------|------|-------|
+| Hàng 2 | 2 x 1 | 2 x 2 | 2 x 3 | 2 x 4 |
+| Hàng 3 | 3 x 1 | 3 x 2 | 3 x 3 | 3 x 4 |
+| Hàng 4 | 4 x 1 | 4 x 2 | 4 x 3 | 4 x 4 |
+  
