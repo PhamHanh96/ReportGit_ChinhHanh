@@ -1,9 +1,6 @@
 ﻿# ReportGit_ChinhHanh
 
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 1c73b4b8dd38d3f7ae64a5517d74b4b2c07fbd36
+
 # 2. Các lệnh cơ bản của git
 
  + Để khởi tạo Git trong một repository (repo), bạn chỉ cần gõ câu lệnh sau. Nếu bạn không khởi tạo Git, bạn không thể sử dụng bất kì các câu lệnh Git nào cả.
@@ -384,4 +381,4 @@ dòng n
   
 =======
 
->>>>>>> 1c73b4b8dd38d3f7ae64a5517d74b4b2c07fbd36
+
