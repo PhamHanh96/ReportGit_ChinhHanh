@@ -1,6 +1,9 @@
 ﻿# ReportGit_ChinhHanh
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> Hanh
 # 2. Các lệnh cơ bản của git
 
  + Để khởi tạo Git trong một repository (repo), bạn chỉ cần gõ câu lệnh sau. Nếu bạn không khởi tạo Git, bạn không thể sử dụng bất kì các câu lệnh Git nào cả.
@@ -356,6 +359,7 @@ dòng n
 | Hàng 4 | 4 x 1 | 4 x 2 | 4 x 3 | 4 x 4 |
   
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## 9. Giới thiệu về cách sử dụng GitLab 
 
 ### Tạo Project
@@ -381,4 +385,6 @@ dòng n
   
 =======
 
+=======
+>>>>>>> Hanh
 
