@@ -115,14 +115,14 @@ Chú ý : Một file đã ở trạng thái Staged mà bạn lại tiếp tục 
   - Nội dung trong file Readme.md thường chứa các nội dung như: hướng dẫn cài đặt, cấu hình, vận hành,cách khắc phục sự cố, thông tin bản quyền giấy phép, thông tin liên hệ...
   - File Readme.me được viết bằng ngôn ngữ Markdown, một ngôn ngữ đánh dấu với cú pháp văn bản thô, được thiết kế để có thể dễ dàng chuyển thành HTML và nhiều định dạng khác sử dụng một công cụ cùng tên.
 #### Một số cơ bản về Markdown
-##### Thẻ tiêu đề
-  - Markdown sử dụng kí tự # để bắt đầu cho các thẻ tiêu đề, có thể dùng từ 1 đến 6 ký tự # liên tiếp. Mức độ riêu đề giảm dần từ 1 đến 6
+1. Thẻ tiêu đề
+  - Markdown sử dụng kí tự # để bắt đầu cho các thẻ tiêu đề, có thể dùng từ 1 đến 6 ký tự # liên tiếp. Mức độ tiêu đề giảm dần từ 1 đến 6
   - Tùy mục đích và ý thích bạn có thể sử dụng cách này để thể hiện các chỉ mục khác nhau.
-Ví dụ: thẻ h1 : #  <Nội dung thẻ>
-           h2 : ##  <Nội dung thẻ>
-           h3 : ###  <Nội dung thẻ>
+  Ví dụ: thẻ h1 : #  <Nội dung thẻ>
+             h2 : ##  <Nội dung thẻ>
+             h3 : ###  <Nội dung thẻ>
 
-##### Chèn link, chèn ảnh
+2. Chèn link, chèn ảnh
   - Để chèn hyperlink bạn chỉ cần paste luôn linh đó vào file .md
 	https://github.com
   - Hoặc bạn cũng có thể sử dụng cú pháp sau để thu ngắn đường dẫn của link
@@ -130,32 +130,23 @@ Ví dụ: thẻ h1 : #  <Nội dung thẻ>
   - Để chèn ảnh thì bạn hãy sử dụng cú pháp sau:
 	<img src="link_anh_cua_ban">
    
-##### Ký tự in đậm, in nghiêng
-  - Để in đậm một đoạn text bạn chỉ cần làm như sau:  **từ cần in đậm**
-  - Để in nghiên một đoạn text bạn chỉ cần làm như sau:  *từ cần in nghiêng*
-##### Trích dẫn, bo chữ
-  - Để bo một đoạn text thì bạn chỉ cần sử dụng cú pháp sau: `đoạn cần bo`
+3. Ký tự in đậm, in nghiêng
+  - Để in đậm một đoạn text:
+    Cú pháp:   **từ cần in đậm**
+  - Để in nghiên một đoạn text:
+    Cú pháp:   *từ cần in nghiêng*
+    
+4. Trích dẫn, bo chữ
+  - Để bo một đoạn text:
+    Cú pháp:   `đoạn cần bo`
   - Để làm nổi bật một đoạn, chẳng hạn như một đoạn shell hay file cấu hình bạn có thể sử dụng cú pháp như ví dụ sau:
-       cú pháp : ``` sh
-                      dòng 1
-                      .....
-                      dòng n
-                    ```
-	
-##### Gạch đầu dòng
-  - Để sử dụng gạch đầu dòng bạn chỉ cần sử dụng cú pháp sau:
-  - Gạch đầu dòng thứ nhất
-	  <ul>
-	  <li>Thụt với đầu dòng 1</li>
-	  <li>Thụt với đầu dòng 1</li>
-	  </ul>
-  - Gạch đầu dòng thứ hai
-	  <ul>
-	  <li>Thụt với đầu dòng 2</li>
-	  <li>Thụt với đầu dòng 2</li>
-	  </ul>
-
-##### Tạo bảng
+    Cú pháp :    ```sh
+    		    dòng 1
+		    .....
+		    dòng n
+		  ```
+       
+5. Tạo bảng
       cú pháp : 
               | Cột 1 Hàng 1 | Cột 2 | Cột 3| Cột 4 |
               |--------------|-------|------|-------|
