@@ -1,11 +1,8 @@
 ﻿# ReportGit_ChinhHanh
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-#2. Các lệnh cơ bản của git
 =======
 # 2. Các lệnh cơ bản của git
->>>>>>> origin/Chinh
+
  + Để khởi tạo Git trong một repository (repo), bạn chỉ cần gõ câu lệnh sau. Nếu bạn không khởi tạo Git, bạn không thể sử dụng bất kì các câu lệnh Git nào cả.
     Cú pháp : git init
 
@@ -169,11 +166,6 @@
 
      Cuối cùng ta click vào create pull request.
 
-
-
-
-=======
-
 ## 1. Sơ đồ tổng quan về hệ thống Git.
 
 ### Git là gì?
@@ -282,8 +274,7 @@ Chú ý : Một file đã ở trạng thái Staged mà bạn lại tiếp tục 
   + Khi tạo xong nó sẽ dẫn bạn tới trang hướng dẫn làm việc với kho chứa vừa tạo. Và kho chứa của bạn bây giờ sẽ có địa chỉ là https://github.com/$user-name/$repository, ví dụ https://github.com/PhamHanh96/Hanh.git
   + Việc của bạn bây giờ là hãy clone cái kho chứa này về máy của mình bằng lệnh git clone địa_chỉ
 		vd: git clone https://github.com/PhamHanh96/Hanh.git
-<<<<<<< HEAD
->>>>>>> origin/Hanh
+
 =======
 		
 ### II. Cách viết file readme.md
@@ -364,4 +355,26 @@ dòng n
 | Hàng 3 | 3 x 1 | 3 x 2 | 3 x 3 | 3 x 4 |
 | Hàng 4 | 4 x 1 | 4 x 2 | 4 x 3 | 4 x 4 |
   
->>>>>>> 039972ced33a8681153d80d7545096cca253452b
+## 9. Giới thiệu về cách sử dụng GitLab 
+
+### Tạo Project
+  - Trước tiên bạn cần đăng nhập vào Gitlab, sau đó ấn vào dấu + trên menu và chọn New Projecgt.
+  ![image 2](https://user-images.githubusercontent.com/35052781/34641179-a454b2fe-f332-11e7-974d-07e09aa1bafa.png)
+  
+  - Bạn sẽ cần đặt tên cho project của bạn.
+  ![image 3](https://user-images.githubusercontent.com/35052781/34641189-d8ebec08-f332-11e7-853e-1cfb739e6549.png)
+  
+  - Khi tạo xong nó sẽ dẫn bạn tới trang hướng dẫn làm việc với project vừa tạo. Ví dụ https://gitlab.com/hanhhana041096/HanhTest.git
+  + Việc của bạn bây giờ là hãy clone cái kho chứa này về máy của mình bằng lệnh git clone địa_chỉ
+		vd: git clone git clone https://gitlab.com/hanhhana041096/HanhTest.git
+
+### Tạo Group
+  - Trước tiên bạn cần đăng nhập vào Gitlab, sau đó ấn vào dấu + trên menu và chọn New Group.
+![image 6](https://user-images.githubusercontent.com/35052781/34641251-c9a391aa-f333-11e7-8d2e-2c2b76bb865e.png)
+
+  - Bạn cần điền tên Project, Tên Group, miêu tả Group...
+  ![image 8](https://user-images.githubusercontent.com/35052781/34641272-07b74658-f334-11e7-8296-2e5d363b9f61.png)
+  
+  - Và cần thêm thành viên vô Group của mình.
+  ![image 10](https://user-images.githubusercontent.com/35052781/34641292-539a1852-f334-11e7-98d5-e036daae43d2.png)
+  
