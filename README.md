@@ -355,8 +355,7 @@ dòng n
 | Hàng 3 | 3 x 1 | 3 x 2 | 3 x 3 | 3 x 4 |
 | Hàng 4 | 4 x 1 | 4 x 2 | 4 x 3 | 4 x 4 |
   
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 ## 9. Giới thiệu về cách sử dụng GitLab 
 
 ### Tạo Project
